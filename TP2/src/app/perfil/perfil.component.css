@@ -1,0 +1,71 @@
+
+/******************AVATAR*****************************************/
+.avatarCont{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .avatarCont .face{
+    position: absolute;
+    }
+  .avatarCont:hover{
+    box-shadow: 0 0 10px #03D4E7;
+    border-radius: 50%;
+  }
+  .avatarCont .face.face1{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0c0f20;
+    border-radius: 50%;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffff;
+    animation: animate 10s linear infinite;
+  }
+  .avatarCont .face.face2{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0c0f20;
+    border-radius: 50%;
+    border-left: 2px solid #03D4E7;
+    border-top: 2px solid #03D4E7;
+    animation: animate2 10s linear infinite;
+  }
+  .avatarCont .avatar{
+          top: 25px;
+          right: 25px;
+          position: absolute;         
+  } 
+  @keyframes animate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+    @keyframes animate2 {
+    0%{
+      transform: rotate(360deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+  }
+  
+  ul{
+      list-style-type: none;
+  }
+  .datos{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+  }
