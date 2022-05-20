@@ -1,0 +1,68 @@
+footer{
+    font-family: var(--fuente-general);
+    color: var(--color-txt-oscuro);
+    background: var(--body-oscuro);
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: var(--margen3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     
+}
+
+.parrafo{
+    left: var(--margen2);
+    font-size: var(--h1-size);
+    font-weight: var(--Bold);
+}
+.parrafo2{
+    font-size: var(--h2-size);
+    font-weight: var(--regular);
+}
+.copyrigth{
+    left: 16px;
+    font-size: var(--h1-size);
+    font-weight: var(--Bold);
+}
+
+#facebook,
+#discord,
+#twitch,
+#twitter {
+  align-items: flex-end;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width:80px;
+  font-size: 2em;
+  margin: 0 12px;
+}
+/*LINEA NEON*/
+#spanNav{
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    transition: 0.2s;
+    animation: lineas 2s linear infinite;
+    box-shadow: 0 0 25px #5DDFEB;
+    
+  }
+  @keyframes lineas {
+    0%{
+      background: linear-gradient(270deg, #03D4E7,transparent);
+      transition: 1s;
+      animation-delay: 1s;
+    }
+    100%{
+      background: linear-gradient(270deg, transparent,#03D4E7);
+      transition: 1s;
+      animation-delay: 1s;
+      
+    } 
+  }
