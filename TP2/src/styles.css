@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Sans:wght@300;400;500;700;900&display=swap');
+/*font-family: 'Comforter Brush', cursive;
+font-family: 'Noto Sans', sans-serif;*/
+:root{
+    /*********************************COLORES****************************************************************/
+    --color-primario:#03D4E7;
+    --color-primario-oscuro:#01828E;
+    --color-primario-claro:#5DDFEB;
+
+    --color-secundario:#D302A5;
+    --color-secundario-oscuro:#89006B;
+    --color-secundario-claro:#DF56C1;
+
+    --color-body-oscuro:#0C0F20;
+    --color-body-claro:#FBFBFE;
+    
+    --color-txt-claro:#242329;
+    --color-txt-oscuro:#FFFFFF;
+    --color-txt-input:#6D6A7C;
+    
+    --color-boton-jugar:#24C115;
+    --color-boton-aviso:#FEE140;
+    --color-boton-alerta:#BB2D3B;
+    --color-boton-aceptar:#166FE5;
+    
+    --color-borde-input-facebook:#3F5793;
+
+    /*******************************TIPOGRAFIAS**************************************************************/
+
+    --fuente-titulo:'Comforter Brush', cursive;
+    --fuente-general:'Noto Sans', sans-serif;
+
+    --h1-size:48px;
+    --h2-size:32px;
+    --h3-size:24px;
+    
+    --normal-size:18px;
+    --regular-size:12px;
+    --txt-icono-size:10px;
+
+    /********************************FONT-WEIGHT***********************************************************/
+
+    --regular:400;
+    --medium:500;
+    --Bold:700;
+    --black:900;
+
+    /******************************MARGENES**************************************************************/
+
+    --margen1:8px;
+    --margen2:16px;
+    --margen3:24px;
+    --margen4:32px;
+    --margen5:48px;
+    --margen6:64px;
+    --margen7:72px;
+
+    /*****************************BODY-DARK*************************************************************/
+
+    --body-oscuro:var(--color-body-oscuro);
+    --color-icono: var(--color-primario);
+
+
+    /****************************BODY-LIGHT***********************************************************/
+
+    --body-claro:var(--color-body-claro);
+    --color-icono:var(--color-body-oscuro);
+   
+}
