@@ -55,6 +55,8 @@ font-family: 'Noto Sans', sans-serif;*/
     --margen6:64px;
     --margen7:72px;
 
+    
+
     /*****************************BODY-DARK*************************************************************/
 
     --body-oscuro:var(--color-body-oscuro);
@@ -68,5 +70,24 @@ font-family: 'Noto Sans', sans-serif;*/
    
     /*******************************BODY-DEGRADE********************************************************/
     
+}
+/****************************Estilos generales***********************************************************/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-oscuro);
+    color: var(--color-txt-oscuro);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
 }
 
