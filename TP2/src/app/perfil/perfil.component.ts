@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil.component.css']
 })
 export class PerfilComponent implements OnInit {
+  opciones: string[];
 
-  constructor() { }
+  constructor() { 
+    this.opciones = ['Favoritos ❤️','Historial de partidas','Ultimos jugados','Cancelar'];
+  }
 
   ngOnInit(): void {
   }

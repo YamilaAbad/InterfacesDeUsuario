@@ -1,0 +1,72 @@
+.grid{
+  display: grid;
+  grid-template-rows: 250px;
+}
+
+/******************AVATAR*****************************************/
+.corbata{
+  position: relative;
+  top: 85%;
+  left: 15%;
+  z-index: -1;
+}
+.avatarCont{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 130px;
+    box-sizing: border-box;
+  }
+  .avatarCont .face{
+    position: absolute;
+    }
+  .avatarCont:hover{
+    box-shadow: 0 0 var(--margen1) var(--color-primario);
+    border-radius: 50%;
+  }
+  .avatarCont .face.face1{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-body-oscuro);
+    border-radius: 50%;
+    border-right: 2px solid var(--color-txt-oscuro);
+    border-left: 2px solid var(--color-txt-oscuro);
+    border-top: 2px solid var(--color-txt-oscuro);
+    animation: animate 10s linear infinite;
+  }
+  .avatarCont .face.face2{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-body-oscuro);
+    border-radius: 50%;
+    border-left: 2px solid var(--color-primario);
+    border-top: 2px solid var(--color-primario);
+    animation: animate2 10s linear infinite;
+  }
+  .avatarCont .avatar{
+          top: var(--margen2);
+          right: var(--margen2);
+          position: absolute;         
+  } 
+  @keyframes animate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+    @keyframes animate2 {
+    0%{
+      transform: rotate(360deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+  }

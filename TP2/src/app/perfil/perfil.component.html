@@ -1,21 +1,19 @@
-
-<div class="perfilUser">
-    <div class="avatarCont">
-        <div class="face face1"></div>
-        <div class="face face2"></div>
-        <div class="avatar">
-            <img src="assets/img/avatars/Avatar_woman31 1.svg" alt="" width="150" height="150">
-        </div>
+<div class="grid">
+    <div class="editar">
+        <img src="assets/iconos/edit.svg" alt="" width="30" height="30">
     </div>
-        
-    <div class="datos">
-        <ul>
-            <li class="opcionesUser">Favoritos</li>
-            <li class="opcionesUser">Historial de compras</li>
-            <li class="opcionesUser">Ultimos jugados</li>
-            <li class="opcionesUser">Cerrar sesión</li>
-        
-        </ul>
+    <div class="perfilUser">
+        <app-avatar-user></app-avatar-user> 
     </div>
-    
+    <div class="motion">
+            <img src="assets/img/saldo.png" alt="" width="20" height="50">6500
+    </div>
+   
+</div>
+<div class="datos">
+    <ul>
+        <li *ngFor="let opcion of opciones">
+            <app-boton-neon [opcion]="opcion"></app-boton-neon>
+        </li>
+    </ul> 
 </div>
