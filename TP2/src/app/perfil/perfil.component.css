@@ -1,13 +1,49 @@
+ .fondo{
+  background: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
+  height: 640px;
+  width: 360px;
+  position: absolute;
+  
+ }
  .grid{
   display: grid;
-  grid-template-columns: 10% 65% 20%;
+  grid-template-columns: 20% 60% 20%;
   grid-template-rows: 300px;
  }
 
+ /*****************EDITAR**************************/
+ .editar{
+   position: relative;
+   margin-left: var(--margen2);
+   top: var(--margen2);
+ }
+ /*******************AVATARS DEL EDITAR*************/
+ .avatars-editables{
+   position: relative;
+   bottom: 420px;
+   display: flex;
+   margin-left: var(--margen5);
+   z-index: 1;
+ }
+
+ /******************SALDO (VALOR)******************/
+ .valor{
+   font-family: var(--fuente-general);
+   font-size: var(--normal-size);
+   margin-top: -30px;
+   
+ }
+ /*****************SALDO (INFO)*********************/
+ .saldo-info{
+   position: relative;
+   margin-left: -40px;
+   z-index: 1;
+   margin-top: -29px;
+ }
  /*********ICONO DE SALDO FLOTANTE****************/
  .motion{
-  width: 0px;
-  height: 65px;
+  right: var(--margen3);
+  top: var(--margen2);
   border-radius: 30%;
   position: relative;
   display: flex;
@@ -37,13 +73,35 @@
  }
 
  /********************************************DATOS DE PERFIL USUARIO***************************************************/
- ul{
-      list-style-type: none;
-  }
+
   .datos{
-        position: absolute;
-        top: 45%;
-        left: 15%;
+        position: relative;
+        top: 150px;
+        left: var(--margen6);
         text-align: center;
   }
- 
+/******************************************BOTON CERRRAR SESIÓN************************************/
+  .btn-cerrar{
+    position: relative;
+    display: inline-block;
+    width: 231px;
+    height: 35px;
+    color: var(--color-txt-oscuro);
+    right: var(--margen7);
+    padding-top: 2px;
+    text-align: center;
+    font-family: var(--fuente-general);
+    font-size: var(--normal-size);
+    font-weight: var(--Bold);
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 5px;
+    background-color: var(--color-boton-alerta);
+    border: 1px solid var(--color-boton-alerta);
+  }
+  .loading{
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    left: 105px;
+  }

@@ -1,0 +1,9 @@
+ .grid-avatars{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto;  
+    gap: var(--margen1);
+    height: 640px;
+    width: 250px;
+    background: linear-gradient(rgba(12,15,35,0.80), rgba(12,15,35,0.80));
+ }

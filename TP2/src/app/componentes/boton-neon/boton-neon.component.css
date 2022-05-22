@@ -2,21 +2,23 @@
     position: relative;
     display: inline-block;
     width: 231px;
-    height: 25px;
+    height: 35px;
+    color: var(--color-txt-oscuro);
     right: var(--margen7);
-    padding-top: 5px;
+    padding-top: 2px;
     text-align: center;
     font-family: var(--fuente-general);
-    font-size: var(--regular-size);
+    font-size: var(--normal-size);
     font-weight: var(--Bold);
     overflow: hidden;
     transition: 0.2s;
-    text-decoration: none;
     border-radius: 5px;
+    border: 1px solid var(--color-primario);
+    background-color: var(--color-body-oscuro);
   }
   
   .btn-neon:hover{
-    background-color: var(--color-body-oscuro);
+   
     box-shadow: 0 0 var(--margen1) var(--color-primario);
   }
   .btn-neon span{

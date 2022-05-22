@@ -1,0 +1,10 @@
+.info-saldo{
+    width: 88px;
+    height: 124px;
+    background: var(--color-body-oscuro);
+    border: 2px solid var(--color-primario);
+    border-radius: 5px;
+    font-family: var(--fuente-general);
+    font-size: var(--txt-icono-size);
+    padding: var(--margen1); 
+}
