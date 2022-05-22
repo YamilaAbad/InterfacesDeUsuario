@@ -1,0 +1,82 @@
+footer{
+    font-family: var(--fuente-general);
+    color: var(--color-txt-oscuro);
+    background: var(--body-oscuro);
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: var(--margen3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     
+}
+
+.parrafo{
+    position: relative;
+    left: var(--margen7);
+    font-size: var(--txt-icono-size);
+    font-weight: var(--Bold);
+    
+}
+.parrafo2{
+    position: relative;
+    left: var(--margen3);
+    font-size: var(--txt-icono-size);
+    font-weight: var(--regular);
+}
+.copyrigth{
+    position: relative;
+    left: var(--margen2);
+    font-size: var(--txt-icono-size);
+    font-weight: var(--Bold);
+}
+
+#facebook,
+#discord,
+#twitch,
+#twitter {
+    position: relative;
+    align-items: flex-end;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 12px;
+    padding-top: var(--margen1);
+    left: var(--margen2);
+}
+/*LINEA NEON*/
+#spanNav{
+    z-index: 1;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    transition: 0.2s;
+    animation: lineas 2s linear infinite;
+    box-shadow: 0 0 25px var(--color-primario-claro);
+    
+  }
+  @keyframes lineas {
+    0%{
+      background: linear-gradient(270deg, var(--color-primario),transparent);
+      transition: 1s;
+      animation-delay: 1s;
+    }
+    100%{
+      background: linear-gradient(270deg, transparent,var(--color-primario));
+      transition: 1s;
+      animation-delay: 1s;
+      
+    } 
+  }
+
+  @media only screen and (max-width: 1200px){
+    footer{
+        display: none;
+    }
+}

@@ -8,6 +8,7 @@ import { AvatarUserComponent } from './componentes/avatar-user/avatar-user.compo
 import { CargarPaginaComponent } from './componentes/cargar-pagina/cargar-pagina.component';
 import { InfoSaldoComponent } from './componentes/info-saldo/info-saldo.component';
 import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.co
     AvatarUserComponent,
     CargarPaginaComponent,
     InfoSaldoComponent,
-    AvatarsEditComponent
+    AvatarsEditComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
