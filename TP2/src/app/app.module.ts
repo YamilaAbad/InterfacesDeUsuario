@@ -9,6 +9,8 @@ import { CargarPaginaComponent } from './componentes/cargar-pagina/cargar-pagina
 import { InfoSaldoComponent } from './componentes/info-saldo/info-saldo.component';
 import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.component';
 import { FooterComponent } from './footer/footer.component';
+import { TiendaPrincipalComponent } from './componentes/tienda-principal/tienda-principal.component';
+import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     CargarPaginaComponent,
     InfoSaldoComponent,
     AvatarsEditComponent,
-    FooterComponent
+    FooterComponent,
+    TiendaPrincipalComponent,
+    TiendaCompraComponent
   ],
   imports: [
     BrowserModule

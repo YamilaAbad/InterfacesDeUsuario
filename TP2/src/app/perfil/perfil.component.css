@@ -2,8 +2,9 @@
   background: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
   height: 640px;
   width: 360px;
+  padding: 0;
+  margin: 0;
   position: absolute;
-  
  }
  .grid{
   display: grid;
@@ -27,43 +28,14 @@
  }
 
  /******************SALDO (VALOR)******************/
- .valor{
+ .saldo{
    font-family: var(--fuente-general);
    font-size: var(--normal-size);
    margin-top: -30px;
    
  }
- /*****************SALDO (INFO)*********************/
- .saldo-info{
-   position: relative;
-   margin-left: -40px;
-   z-index: 1;
-   margin-top: -29px;
- }
- /*********ICONO DE SALDO FLOTANTE****************/
- .motion{
-  right: var(--margen3);
-  top: var(--margen2);
-  border-radius: 30%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: float 5s ease-in-out infinite; 
-}
-@keyframes float {
-  0%{
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(-15px);
-  }
-  100%{
-    transform: translateY(0);
-  }
-  
-}
-
+ 
+ 
 
 /******************************************PERFIL USUARIO***********************************************************/
  .perfilUser{
