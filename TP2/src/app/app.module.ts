@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+/************************SERVIS JS***************************/
+import {CargarScriptsService} from "./cargar-scripts.service";
 
 import { AppComponent } from './app.component';
 import { PerfilComponent } from './perfil/perfil.component';
@@ -32,7 +34,9 @@ import { LoginComponent } from './componentes/login/login.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
