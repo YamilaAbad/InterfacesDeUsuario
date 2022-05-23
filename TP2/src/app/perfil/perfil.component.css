@@ -16,7 +16,7 @@
  .editar{
    position: relative;
    margin-left: var(--margen2);
-   top: var(--margen5);
+   top: var(--margen7);
  }
  /*******************AVATARS DEL EDITAR*************/
  .avatars-editables{
@@ -31,20 +31,21 @@
  .saldo{
    font-family: var(--fuente-general);
    font-size: var(--normal-size);
+   margin-top: 18px;
  }
  
 /******************************************PERFIL USUARIO***********************************************************/
  .perfilUser{
    position: relative;
    right: var(--margen3);
-   top: var(--margen3);
+   top: var(--margen5);
  }
 
  /********************************************DATOS DE PERFIL USUARIO***************************************************/
 
   .datos{
         position: relative;
-        top: 150px;
+        top: 180px;
         left: var(--margen6);
         text-align: center;
   }

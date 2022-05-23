@@ -12,13 +12,13 @@
     position: absolute;
     left: 300px;
     margin-right: var(--margen3);
-    
+    margin-top: 18px;
   }
 h1{
     font-family: var(--fuente-general);
     position: absolute;
     font-size: var(--h2-size);
-    top: 80px;
+    top: 100px;
     left: 80px;
     color: var(--color-primario-oscuro);
     -webkit-text-stroke: 1px var(--color-primario);
@@ -29,7 +29,7 @@ h1{
     border: 1px solid var(--color-primario);
     border-radius: 5px;
     position: relative;
-    bottom: 32rem;
+    bottom: 30.5rem;
     left: var(--margen3);
     right: var(--margen3);
     margin-bottom: var(--margen3);
@@ -118,7 +118,7 @@ p{
     width: 1px;
     height: 430px;
     background: var(--color-primario);
-    top:-60.4rem;
+    top:-58.9rem;
     left: 245px;
     position: relative;
     z-index: 1;
