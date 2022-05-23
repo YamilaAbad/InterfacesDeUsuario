@@ -1,0 +1,127 @@
+*{
+    font-family: var(--fuente-general);
+    font-size: var(--regular-size);
+}
+.tienda{
+    height: 640px;
+    width: 360px;
+}
+.saldo{
+    font-family: var(--fuente-general);
+    font-size: var(--normal-size);
+    top: -24px;
+    position: absolute;
+    left: 300px;
+    margin-right: var(--margen3);
+    
+  }
+h1{
+    font-family: var(--fuente-general);
+    position: absolute;
+    font-size: var(--h2-size);
+    top: var(--margen7);
+    left: 80px;
+    color: var(--color-primario-oscuro);
+    -webkit-text-stroke: 1px var(--color-primario);
+} 
+.contenedor{
+    width: 312px;
+    height: 462px;
+    border: 1px solid var(--color-primario);
+    border-radius: 5px;
+    position: relative;
+    bottom: 32rem;
+    left: var(--margen3);
+    right: var(--margen3);
+    margin-bottom: var(--margen3);
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    grid-template-rows: auto;  
+    gap: var(--margen2);
+    padding: var(--margen1);
+    
+}
+
+img{
+    width: 30px;
+    height: 60px;
+}
+
+option{
+    background: var(--color-body-oscuro);
+    color: var(--color-txt-oscuro);
+}
+select{
+    box-shadow: none;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: var(--color-txt-oscuro);
+    background: var(--color-body-oscuro);
+    border:1px solid var(--color-body-oscuro);
+}
+
+.aviso{
+    width: 182px;
+    height: 140px;
+    border: 1px solid var(--color-primario);
+    text-align: center;
+    margin-top: var(--margen1);
+    margin-left: var(--margen1);
+}
+.aviso img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: var(--margen7);
+    top: var(--margen1);    
+}
+.aviso p{
+    width: 150px;
+    margin-left: 23px;
+    margin-top: -15px ;
+}
+p{
+    margin-top: var(--margen2);
+    margin-left: var(--margen1);
+    margin-right: var(--margen1);
+}
+.botones{
+    position: relative;
+    top: var(--margen1);
+    left: 15px;
+}
+.botones .cancelar{
+    color: var(--color-txt-oscuro);
+    border: 2px solid var(--color-boton-alerta);
+    padding: var(--margen1) var(--margen2);
+    background: var(--color-body-oscuro);
+    border-radius: 5px;
+  
+}
+.botones .aceptar{
+    position: relative;
+    color: var(--color-txt-oscuro);
+    border: 2px solid var(--color-primario);
+    padding: var(--margen1) var(--margen1);
+    left: 10px;
+    border-radius: 5px;
+    background: var(--color-body-oscuro);  
+}
+.aviso-asistencia{
+    margin-top: var(--margen2);
+}
+.aviso-asistencia a{
+    text-decoration:underline;
+    color: var(--color-primario);
+}
+.lineaVertical{
+    width: 1px;
+    height: 462px;
+    background: var(--color-primario);
+    top:-62.35rem;
+    left: 245px;
+    position: relative;
+    z-index: 1;
+  
+}

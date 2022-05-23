@@ -1,0 +1,74 @@
+.tienda{
+    height: 640px;
+    width: 360px;
+}
+.saldo{
+    font-family: var(--fuente-general);
+    font-size: var(--normal-size);
+    top: -24px;
+    position: absolute;
+    left: 300px;
+    margin-right: var(--margen3);
+    
+  }
+h1{
+    font-family: var(--fuente-general);
+    position: absolute;
+    font-size: var(--h2-size);
+    top: var(--margen7);
+    left: 80px;
+    color: var(--color-primario-oscuro);
+    -webkit-text-stroke: 1px var(--color-primario);
+} 
+.contenedor{
+    width: 312px;
+    height: 462px;
+    border: 2px solid var(--color-primario);
+    position: relative;
+    bottom: 32rem;
+    left: var(--margen3);
+    right: var(--margen3);
+    margin-bottom: var(--margen3);
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;  
+    gap: var(--margen2);
+    padding: var(--margen1);
+}
+p{
+    font-family: var(--fuente-general);
+    font-size: var(--regular-size);
+    text-align: center;
+}
+.img-grande{
+    width: 70px;
+    height: 100px;
+}
+img{
+    width: 30px;
+    height: 60px;
+}
+li{
+    width: auto;
+    height: auto;
+    background: var(--color-txt-input);
+    border-radius: 5px;
+    margin: var(--margen1);
+    border: 2px solid var(--color-primario);
+}
+.tarjetas{
+    bottom: 36.7rem;
+    position: relative;   
+    width: 312px;
+    left: var(--margen3);
+    height: 50px;
+    background: var(--color-primario);
+}
+.tarjetas img{
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}

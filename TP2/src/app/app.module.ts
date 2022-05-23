@@ -9,6 +9,8 @@ import { CargarPaginaComponent } from './componentes/cargar-pagina/cargar-pagina
 import { InfoSaldoComponent } from './componentes/info-saldo/info-saldo.component';
 import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.component';
 import { FooterComponent } from './footer/footer.component';
+import { TiendaPrincipalComponent } from './componentes/tienda-principal/tienda-principal.component';
+import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
 import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 
 @NgModule({
@@ -21,6 +23,8 @@ import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
     InfoSaldoComponent,
     AvatarsEditComponent,
     FooterComponent,
+    TiendaPrincipalComponent,
+    TiendaCompraComponent,
     IgNavbarComponent
   ],
   imports: [

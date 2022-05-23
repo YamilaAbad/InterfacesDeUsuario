@@ -1,4 +1,4 @@
-.info-saldo{
+/* .info-saldo{
     width: 88px;
     height: 124px;
     background: var(--color-body-oscuro);
@@ -6,5 +6,54 @@
     border-radius: 5px;
     font-family: var(--fuente-general);
     font-size: var(--txt-icono-size);
-    padding: var(--margen1); 
+    padding: var(--margen1);   
+    position: relative;
+    margin-left: -40px;
+    z-index: 1;
+    margin-top: -29px;
+} */
+#check{
+    display: none;
 }
+.info-saldo{
+    height: 0;
+    overflow: hidden;
+}
+#check:checked{
+    width: 88px;
+    height: 124px;
+    background: var(--color-body-oscuro);
+    border: 2px solid var(--color-primario);
+    border-radius: 5px;
+    font-family: var(--fuente-general);
+    font-size: var(--txt-icono-size);
+    padding: var(--margen1);   
+    position: relative;
+    margin-left: -40px;
+    z-index: 1;
+    margin-top: -29px;
+}
+/*********ICONO DE SALDO FLOTANTE****************/
+.motion{
+    right: var(--margen3);
+    top: 45px;
+    border-radius: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 5s ease-in-out infinite; 
+  }
+  @keyframes float {
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-13px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+    
+  }
+  
