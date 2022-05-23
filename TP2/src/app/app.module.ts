@@ -9,7 +9,7 @@ import { CargarPaginaComponent } from './componentes/cargar-pagina/cargar-pagina
 import { InfoSaldoComponent } from './componentes/info-saldo/info-saldo.component';
 import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.component';
 import { FooterComponent } from './footer/footer.component';
-import { IgNavbarComponent } from './ig-navbar/ig-navbar.component';
+import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 
 @NgModule({
   declarations: [
