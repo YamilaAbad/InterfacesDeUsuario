@@ -11,6 +11,7 @@ import { AvatarsEditComponent } from './componentes/avatars-edit/avatars-edit.co
 import { FooterComponent } from './footer/footer.component';
 import { TiendaPrincipalComponent } from './componentes/tienda-principal/tienda-principal.component';
 import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
+import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra
     AvatarsEditComponent,
     FooterComponent,
     TiendaPrincipalComponent,
-    TiendaCompraComponent
+    TiendaCompraComponent,
+    IgNavbarComponent
   ],
   imports: [
     BrowserModule

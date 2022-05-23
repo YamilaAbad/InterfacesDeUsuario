@@ -3,27 +3,26 @@
 font-family: 'Noto Sans', sans-serif;*/
 :root{
     /*********************************COLORES****************************************************************/
-    --color-primario:#03D4E7;
-    --color-primario-oscuro:#01828E;
-    --color-primario-claro:#5DDFEB;
+    --color-primario:rgb(3, 212, 231);
+    --color-primario-oscuro:rgb(1, 130, 142);
+    --color-primario-claro:rgb(93, 223, 235);
 
-    --color-secundario:#D302A5;
-    --color-secundario-oscuro:#89006B;
-    --color-secundario-claro:#DF56C1;
+    --color-secundario:rgb(211, 2, 165);
+    --color-secundario-oscuro:rgb(138, 0, 108);
+    --color-secundario-claro:rgb(223, 86, 193);
 
-    --color-body-oscuro:#0C0F20;
-    --color-body-claro:#FBFBFE;
+    --color-body-oscuro:rgb(12, 15, 32);
+    --color-body-claro: rgb(251, 251, 254);
+    --color-txt-claro:rgb(36, 35, 41);
+    --color-txt-oscuro:rgb(255, 255, 255);
+    --color-txt-input:rgb(109, 106, 124);
     
-    --color-txt-claro:#242329;
-    --color-txt-oscuro:#FFFFFF;
-    --color-txt-input:#6D6A7C;
+    --color-boton-jugar:rgb(36, 193, 21);
+    --color-boton-aviso:rgb(254, 225, 64);
+    --color-boton-alerta:rgb(187, 45, 59);
+    --color-boton-aceptar:rgb(22, 111, 229);
     
-    --color-boton-jugar:#24C115;
-    --color-boton-aviso:#FEE140;
-    --color-boton-alerta:#BB2D3B;
-    --color-boton-aceptar:#166FE5;
-    
-    --color-borde-input-facebook:#3F5793;
+    --color-borde-input-facebook:rgb(63, 87, 147);
 
     /*******************************TIPOGRAFIAS**************************************************************/
 
@@ -33,7 +32,7 @@ font-family: 'Noto Sans', sans-serif;*/
     --h1-size:48px;
     --h2-size:32px;
     --h3-size:24px;
-    
+    --h4-size: 16;
     --normal-size:18px;
     --regular-size:12px;
     --txt-icono-size:10px;
@@ -55,18 +54,22 @@ font-family: 'Noto Sans', sans-serif;*/
     --margen6:64px;
     --margen7:72px;
 
-    
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
 
     /*****************************BODY-DARK*************************************************************/
 
     --body-oscuro:var(--color-body-oscuro);
     --color-icono: var(--color-primario);
-
+    --color-nav-oscuro: rgb(0, 0, 0);
 
     /****************************BODY-LIGHT***********************************************************/
 
     --body-claro:var(--color-body-claro);
     --color-icono:var(--color-body-oscuro);
+    --color-nav-claro: rgb(255, 255, 255);
+
    
     /*******************************BODY-DEGRADE********************************************************/
     
