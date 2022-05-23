@@ -5,7 +5,6 @@
 .saldo{
     font-family: var(--fuente-general);
     font-size: var(--normal-size);
-    top: -24px;
     position: absolute;
     left: 300px;
     margin-right: var(--margen3);
@@ -15,14 +14,14 @@ h1{
     font-family: var(--fuente-general);
     position: absolute;
     font-size: var(--h2-size);
-    top: var(--margen7);
+    top: 80px;
     left: 80px;
     color: var(--color-primario-oscuro);
     -webkit-text-stroke: 1px var(--color-primario);
 } 
 .contenedor{
     width: 312px;
-    height: 462px;
+    height: 430px;
     border: 2px solid var(--color-primario);
     position: relative;
     bottom: 32rem;
@@ -44,12 +43,12 @@ p{
     text-align: center;
 }
 .img-grande{
-    width: 70px;
-    height: 100px;
+    width: 50px;
+    height: 80px;
 }
 img{
-    width: 30px;
-    height: 60px;
+    width: 20px;
+    height: 50px;
 }
 li{
     width: auto;

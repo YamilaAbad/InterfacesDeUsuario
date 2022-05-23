@@ -16,7 +16,7 @@
  .editar{
    position: relative;
    margin-left: var(--margen2);
-   top: var(--margen2);
+   top: var(--margen5);
  }
  /*******************AVATARS DEL EDITAR*************/
  .avatars-editables{
@@ -31,12 +31,8 @@
  .saldo{
    font-family: var(--fuente-general);
    font-size: var(--normal-size);
-   margin-top: -30px;
-   
  }
  
- 
-
 /******************************************PERFIL USUARIO***********************************************************/
  .perfilUser{
    position: relative;
@@ -75,5 +71,5 @@
     position: absolute;
     margin: 0;
     z-index: 1;
-    left: 105px;
+    left: 110px;
   }

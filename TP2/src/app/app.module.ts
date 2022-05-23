@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TiendaPrincipalComponent } from './componentes/tienda-principal/tienda-principal.component';
 import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
 import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
     FooterComponent,
     TiendaPrincipalComponent,
     TiendaCompraComponent,
-    IgNavbarComponent
+    IgNavbarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule

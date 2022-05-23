@@ -9,7 +9,6 @@
 .saldo{
     font-family: var(--fuente-general);
     font-size: var(--normal-size);
-    top: -24px;
     position: absolute;
     left: 300px;
     margin-right: var(--margen3);
@@ -19,14 +18,14 @@ h1{
     font-family: var(--fuente-general);
     position: absolute;
     font-size: var(--h2-size);
-    top: var(--margen7);
+    top: 80px;
     left: 80px;
     color: var(--color-primario-oscuro);
     -webkit-text-stroke: 1px var(--color-primario);
 } 
 .contenedor{
     width: 312px;
-    height: 462px;
+    height: 430px;
     border: 1px solid var(--color-primario);
     border-radius: 5px;
     position: relative;
@@ -117,9 +116,9 @@ p{
 }
 .lineaVertical{
     width: 1px;
-    height: 462px;
+    height: 430px;
     background: var(--color-primario);
-    top:-62.35rem;
+    top:-60.4rem;
     left: 245px;
     position: relative;
     z-index: 1;

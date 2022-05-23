@@ -1,0 +1,13 @@
+<div class="logo">
+    <img src="assets/img/logo.png" alt="">
+    <h1>Island Games</h1>
+</div>
+<div class="opcion-inicio">
+    <ul>
+        <li *ngFor="let inicioSesion of inicioSesiones">
+            <app-boton-neon [opcion]="inicioSesion"></app-boton-neon>    
+        </li>
+    </ul> 
+</div>
+<span></span><p>ó</p><span></span>
+<button class="btn-crearCuenta">Crear cuenta</button>
