@@ -1,35 +1,36 @@
-.tienda{
-    height: 640px;
-    width: 360px;
-}
-.saldo{
-    font-family: var(--fuente-general);
-    font-size: var(--normal-size);
-    position: absolute;
-    left: 300px;
-    margin-right: var(--margen3);
-    margin-top: 18px;
-  }
-h1{
-    font-family: var(--fuente-general);
-    position: absolute;
-    font-size: var(--h2-size);
-    top: 100px;
-    left: 80px;
-    color: var(--color-primario-oscuro);
-    -webkit-text-stroke: 1px var(--color-primario);
-} 
-.contenedor{
-    width: 312px;
-    height: 430px;
-    border: 2px solid var(--color-primario);
-    position: relative;
-    bottom: 30.5rem;
-    left: var(--margen3);
-    right: var(--margen3);
-    margin-bottom: var(--margen5);
-}
 
+.saldo{
+    transform: translate(80%,40%);
+    margin-left: var(--margen7);
+    
+}
+.conteiner{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo{
+    position: relative;
+    text-align: center;
+    margin-top: var(--margen4);
+    color: var(--color-txt-oscuro);
+}
+img{
+    height: 50px;
+    width: 30px;
+}
+.contenedor{ 
+    position: relative;
+    align-items: center;
+    width: 312px;
+    height: auto;
+    border: 1px solid var(--color-primario);
+    margin: var(--margen3);
+    padding: var(--margen1);
+}
 .grid-contenedor{
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -42,14 +43,6 @@ p{
     font-size: var(--regular-size);
     text-align: center;
 }
-.img-grande{
-    width: 50px;
-    height: 80px;
-}
-img{
-    width: 20px;
-    height: 50px;
-}
 li{
     width: auto;
     height: auto;
@@ -58,16 +51,17 @@ li{
     margin: var(--margen1);
     border: 2px solid var(--color-primario);
 }
-.tarjetas{
-    bottom: 36.7rem;
-    position: relative;   
+.tarjetas{   
+    align-items: center;
+    
     width: 312px;
-    left: var(--margen3);
     height: 50px;
+    margin-top: 27px;
+    margin-right:(--margen2);
     background: var(--color-primario);
-}
-.tarjetas img{
-    width: 40px;
-    height: 40px;
-    margin: 8px;
-}
+  }
+  .tarjetas img{
+      width: 40px;
+      height: 40px;
+      margin: 8px;
+  } 

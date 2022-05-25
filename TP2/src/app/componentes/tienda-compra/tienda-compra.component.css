@@ -20,8 +20,8 @@ h1{
     font-size: var(--h2-size);
     top: 100px;
     left: 80px;
-    color: var(--color-primario-oscuro);
-    -webkit-text-stroke: 1px var(--color-primario);
+    color: var(--color-txt-oscuro);
+
 } 
 .contenedor{
     width: 312px;

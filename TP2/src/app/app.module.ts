@@ -15,6 +15,7 @@ import { TiendaPrincipalComponent } from './componentes/tienda-principal/tienda-
 import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
 import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LoginComponent } from './componentes/login/login.component';
     LoginComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [
     CargarScriptsService

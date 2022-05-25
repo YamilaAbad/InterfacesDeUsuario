@@ -1,11 +1,11 @@
-body {
+/* body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--fuente-general);
     font-size: var(--normal-size);
     background-color: var(--body-oscuro);
     color:var(--color-txt-oscuro);
   }
-  
+   */
   img {
     max-width: 100%;
     height: auto;
