@@ -87,13 +87,8 @@ body.dark-theme{
     scroll-behavior: smooth;
 } */
 body{
-<<<<<<< HEAD
-    background-color: var(--body-oscuro); 
-=======
+    background-color: var(--body-oscuro);
     margin: var(--header-height) 0 0 0;
-    /*background-color: var(--body-oscuro);*/
-    background-color: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
->>>>>>> c7ecc5235215b8f03a6f6a413a1035b44d3b6aa6
     color: var(--color-txt-oscuro);
     font-family: var(--fuente-general);
 }
