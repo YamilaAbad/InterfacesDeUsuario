@@ -89,7 +89,7 @@ body.dark-theme{
 body{
     margin: var(--header-height) 0 0 0;
     /*background-color: var(--body-oscuro);*/
-    background-color: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
+    
     color: var(--color-txt-oscuro);
     font-family: var(--fuente-general);
 }
