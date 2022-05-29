@@ -1,0 +1,40 @@
+<div class="fondo">
+    <h1>Registro de usuario</h1>
+    <div class="inputs-inicio">
+        <div class="input-group">
+            <input type="email" placeholder="email@ejemplo.com" id="email">
+            <label for="email">
+                <div class="icon"><p>✉</p></div>
+                Correo electrónico
+            </label>
+        </div>
+        <div class="input-group2">
+        <input type="name" placeholder="Tu nombre de usuario" id="name">
+        <label for="name">
+            <div class="icon"><p>👤</p></div>
+            Nombre de Usuario
+        </label>
+        </div>
+        <div class="input-group3">
+            <input type="password" placeholder="**********" id="password">
+            <label for="password">
+                <div class="icon"><p>🔒︎</p></div>
+                Contraseña
+            </label>
+        </div>
+        <div class="input-group4">
+            <input type="password" placeholder="**********" id="password">
+            <label for="password">
+                <div class="icon"><p>🔒︎</p></div>
+                Repetir contraseña
+            </label>
+        </div>
+    </div>
+    <div class="politicas">
+    <label class="label-check">
+        <input class="input-check"type="checkbox"/><div class="checkbox"></div>
+    </label>
+    <p >Acepto las politicas de privacidad</p></div>
+    <a class="btn-crearCuenta" [routerLink]="['/perfil']">Crear cuenta</a> 
+</div>
+

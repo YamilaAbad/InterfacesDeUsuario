@@ -84,7 +84,7 @@ font-family: 'Noto Sans', sans-serif;*/
     scroll-behavior: smooth;
 } */
 body{
-    background-color: var(--body-oscuro);
+    background-color: var(--body-oscuro); 
     color: var(--color-txt-oscuro);
     font-family: var(--fuente-general);
 }

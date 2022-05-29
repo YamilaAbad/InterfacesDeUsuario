@@ -1,13 +1,33 @@
-<div class="logo">
-    <img src="assets/img/logo.png" alt="">
-    <h1>Island Games</h1>
+<div>
+    <app-login-fondo></app-login-fondo>
+    <div class="opcion-inicio">
+        <ul>
+            <div>
+              </div>
+            <li>
+                <div>
+                    <a class="btn-neon" id="btn-1" [routerLink]="['/login-cuenta']">Iniciar Sesión
+                     <span id="span1"></span>
+                     <span id="span2"></span>
+                     <span id="span3"></span>
+                     <span id="span4"></span>
+                    </a>
+                  </div>
+            </li>
+            <li>
+                  <div>
+                    <a class="btn-neon" id="btn-2" [routerLink]="['/login-facebook']">Iniciar Sesión con Facebook
+                     <span id="span1"></span>
+                     <span id="span2"></span>
+                     <span id="span3"></span>
+                     <span id="span4"></span>
+                    </a>
+                  </div>    
+            </li>
+        </ul> 
+    </div>
+    <div class="linea"></div><p>ó</p><div class="linea2"></div>
+    <a class="btn-crearCuenta" [routerLink]="['/crear-cuenta']">Crear cuenta</a>
 </div>
-<div class="opcion-inicio">
-    <ul>
-        <li *ngFor="let inicioSesion of inicioSesiones">
-            <app-boton-neon [opcion]="inicioSesion"></app-boton-neon>    
-        </li>
-    </ul> 
-</div>
-<span></span><p>ó</p><span></span>
-<button class="btn-crearCuenta">Crear cuenta</button>
+
+

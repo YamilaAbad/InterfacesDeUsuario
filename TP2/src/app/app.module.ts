@@ -16,6 +16,10 @@ import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra
 import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginFondoComponent } from './login-fondo/login-fondo.component';
+import { LoginCuentaComponent } from './login-cuenta/login-cuenta.component';
+import { LoginFacebookComponent } from './login-facebook/login-facebook.component';
+import { LoginCrearCuentaComponent } from './login-crear-cuenta/login-crear-cuenta.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { AppRoutingModule } from './app-routing.module';
     TiendaPrincipalComponent,
     TiendaCompraComponent,
     IgNavbarComponent,
-    LoginComponent
+    LoginComponent,
+    LoginFondoComponent,
+    LoginCuentaComponent,
+    LoginFacebookComponent,
+    LoginCrearCuentaComponent
   ],
   imports: [
     BrowserModule,
