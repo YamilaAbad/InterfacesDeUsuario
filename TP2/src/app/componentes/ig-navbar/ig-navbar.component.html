@@ -1,58 +1,108 @@
- <!--=============== HEADER ===============-->
- <header class="header" id="header">
+<header class="header" id="header">
     <nav class="nav container">
         <div class="header_icon">
-            <img class="header_icon_log" src="assets/img/logo.png">
+            <img class="header_icon_log" src="assets/img/img/logo.png">
             <a href="#home" class="nav__logo">Island Games</a>
-            
-            <label class="search-box" for="search-box">
-                <input type="text" palaceholder="">
-                <a href="##" class="icon">
-                    <img class="search__icon" src="assets/iconos/search.svg">
-                </a>
-            </label>                       
+                  
+        </div>
+        <div class="header__search">
+            <input type="search" placeholder="¿Que estas buscando?" class="header__input">
+            <a href="#" class="icon">
+                <i class='bx bx-search-alt-2 header__icon'></i>
+            </a>
+           
         </div>
         
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
             
                 <li class="nav__item">
-                    <a href="#home" class="nav__link active-link">                      
-                        <img class="nav__icon" src="assets/iconos/inicio.svg">
+                    <a href="#home" class="nav__link active">
+                        <!--<i class='bx bxs-home nav__icon'></i>-->
+                        <img class="nav__icon" src="assets/iconos/inicio.svg>
                         <span class="nav__name">Inicio</span>
                     </a>
                 </li>
                 
                 <li class="nav__item">
-                    <a href="#market" class="nav__link">                       
+                    <a href="#market" class="nav__link">
+                        <!--<i class='bx bxs-store-alt nav__icon'></i>-->
                         <img class="nav__icon" src="assets/iconos/tienda.svg">
                         <span class="nav__name">Tienda</span>
                     </a>
                 </li>
 
                 <li class="nav__item">
-                    <a href="#category" class="nav__link">                       
+                    <a href="#category" class="nav__link ">
                         <img class="nav__icon" src="assets/iconos/categoria.svg">
-                        <span class="nav__name">Categorías</span>
+                        <span class="nav__name">Categorías</i></span>
+                        <!-- <i class="uil uil-angle-down nav__icon_categ">-->                                
                     </a>
+                    <ul class="nav__subList">
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                            <span class="nav__name">Acción</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Aventura</span>
+                            </a>     
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Carrera</span>
+                            </a>     
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Casino</span>
+                            </a>       
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Deporte</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Mesa</span>
+                            </a>             
+                        </li>
+
+                        <li class="nav_subItem">
+                            <a href="" class="nav__link">
+                                <span class="nav__name">Rol</span>
+                            </a>    
+                        </li>
+                    </ul>
+                    
+                    
                 </li>
 
                 <li class="nav__item">
                     <a href="#user" class="nav__link">
+                        <!--<i class='bx bx-user-circle nav__icon'></i>-->
                         <img class="nav__icon" src="assets/iconos/usuario.svg">
                         <span class="nav__name">Perfil</span>
                     </a>
                 </li>
             </ul>
+            
         </div>
         <div>
             <label for="checkbox" class="toggler">
                 <input type="checkbox" id="checkbox">
                 <span class="ball"></span>
-                <img class="sun" src="assets/iconos/sol.svg">
-                <img class="moon" src="assets/iconos/luna.svg">
-                
+                <i class="uil uil-sun  sun"></i>
+                <i class="uil uil-moon moon change-theme" id="theme-button"></i>
             </label>
-        </div>
+        </div> 
     </nav>
-</header>    
+</header> 
+
