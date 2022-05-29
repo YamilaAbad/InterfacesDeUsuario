@@ -11,22 +11,29 @@
                 <i class='bx bx-search-alt-2 header__icon'></i>
             </a>
            
+            <img class="header_icon_log" src="assets/img/logo.png">
+            <a [routerLink]="['/']" class="nav__logo">Island Games</a>
+            
+            <label class="search-box" for="search-box">
+                <input type="text" palaceholder="">
+                <a href="##" class="icon">
+                    <img class="search__icon" src="assets/iconos/search.svg">
+                </a>
+            </label>                       
         </div>
         
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
             
                 <li class="nav__item">
-                    <a href="#home" class="nav__link active">
-                        <!--<i class='bx bxs-home nav__icon'></i>-->
-                        <img class="nav__icon" src="assets/iconos/inicio.svg>
+                    <a [routerLink]="['/']" class="nav__link active-link">                      
+                        <img class="nav__icon" src="assets/iconos/inicio.svg">
                         <span class="nav__name">Inicio</span>
                     </a>
                 </li>
                 
                 <li class="nav__item">
-                    <a href="#market" class="nav__link">
-                        <!--<i class='bx bxs-store-alt nav__icon'></i>-->
+                    <a [routerLink]="['/tienda']" class="nav__link">                       
                         <img class="nav__icon" src="assets/iconos/tienda.svg">
                         <span class="nav__name">Tienda</span>
                     </a>
@@ -80,14 +87,10 @@
                                 <span class="nav__name">Rol</span>
                             </a>    
                         </li>
-                    </ul>
-                    
-                    
+                    </ul>  
                 </li>
-
                 <li class="nav__item">
-                    <a href="#user" class="nav__link">
-                        <!--<i class='bx bx-user-circle nav__icon'></i>-->
+                    <a [routerLink]="['/perfil']" class="nav__link">
                         <img class="nav__icon" src="assets/iconos/usuario.svg">
                         <span class="nav__name">Perfil</span>
                     </a>

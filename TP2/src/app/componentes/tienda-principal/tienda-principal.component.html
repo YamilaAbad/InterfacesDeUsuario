@@ -1,47 +1,52 @@
-<div class="tienda">
-    <div class="saldo">
-    <app-info-saldo></app-info-saldo>
+<section class="container">
+    <div class="tienda">
+        <div class="saldo">
+            <app-info-saldo></app-info-saldo>
+        </div>
+        <h1 class="titulo">Island Point</h1>
     </div>
-    <h1>Island Point</h1>
-</div>
-
-<ul class="contenedor"> 
-    <li class="grid-contenedor">
-       <img src="assets/img/saldo_combo2.png" alt="" class="img-grande">
-        <p>
-            Mega Oferta<br> 
-            del Mes
-            <br>
-            15000 Island Point + 3000 Island Point de regalo
-        </p>
-        <p>$US 100.00</p>
-    </li>
-    <li class="grid-contenedor">
-        <img src="assets/img/saldo.png" alt="">
-        <p>
-            500 Island Point
-        </p>
-        <p>$US 5.00</p>
-    </li>
-    <li class="grid-contenedor">
-        <img src="assets/img/saldo_combo1.png" alt="">
-        <p>
-            1500 Island Point + 200 de regalo
-        </p>
-        <p>$US 15.00</p>
-    </li>
-    <li class="grid-contenedor">
-        <img src="assets/img/saldo_combo1.png" alt="">
-        <p>
-            3000 Island Point + 800 de regalo
-        </p>
-        <p>$US 30.00</p>
-    </li>
-</ul>
-<div class="tarjetas">
-    <img src="assets/iconos/logos_visa.svg" alt="">
-    <img src="assets/iconos/logos_mastercard.svg" alt="">
-    <img src="assets/iconos/fontisto_american-express.svg" alt="">
-    <img src="assets/iconos/logos_paypal.svg" alt="">
-</div>
- 
+    <div class="contenedor">
+        <ul> 
+            <li class="grid-contenedor" [routerLink]="['/compra']">
+            <img src="assets/img/saldo_combo2.png" alt="" class="img-grande">
+                <p>
+                    Mega Oferta<br> 
+                    del Mes
+                    <br>
+                    15000 Island Point + 3000 Island Point de regalo
+                </p>
+                <p>$US 100.00</p>
+            </li>
+            <li class="grid-contenedor">
+                <img src="assets/img/saldo.png" alt="">
+                <p>
+                    500 Island Point
+                </p>
+                <p>$US 5.00</p>
+            </li>
+            <li class="grid-contenedor">
+                <img src="assets/img/saldo_combo1.png" alt="">
+                <p>
+                    1500 Island Point + 200 de regalo
+                </p>
+                <p>$US 15.00</p>
+            </li>
+            <li class="grid-contenedor">
+                <img src="assets/img/saldo_combo1.png" alt="">
+                <p>
+                    3000 Island Point + 800 de regalo
+                </p>
+                <p>$US 30.00</p>
+            </li>
+        </ul>
+        <div class="tarjetas">
+            <div>
+                <img src="assets/iconos/logos_visa.svg" alt="">
+                <img src="assets/iconos/logos_mastercard.svg" alt="">
+                <img src="assets/iconos/fontisto_american-express.svg" alt="">
+                <img src="assets/iconos/logos_paypal.svg" alt="">
+            </div>
+        </div>
+   </div>
+        
+</section>
