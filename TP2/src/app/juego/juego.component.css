@@ -1,0 +1,128 @@
+.fondo{
+    height: 100vh;
+}
+.juego{
+    display: flex;
+    margin-top: 50px;
+    width: 360px;
+    height: 260px;
+    background-image: url('./../../assets/img/juegos/aventura3_warcraft_arclight_rumble.png');
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-position: center;
+}
+
+.play{
+    display: flex;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    width: 85px;
+    height: 85px;
+    margin-left: 40%;
+}
+
+.compartir{
+    display: flex;
+    position: relative;
+    top: 14px;
+    height: 25px;
+    width: 30px;
+    left: 80px;
+    
+}
+ .favorito{
+    display: flex;
+    position: relative;
+    top: 225px;
+    left: 50px;
+    height: 25px;
+    width: 30px;
+} 
+
+.heart {
+    background-image: url(https://abs.twimg.com/a/1474649078/img/animations/web_heart_animation.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 2900%;
+    cursor: pointer;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    top: 190px;
+    position: relative;
+    margin-left:20px;
+    
+}
+    
+.heart.on{
+    animation: heartAnim 1s steps(28) forwards;
+}   
+.heart:hover {
+        background-position: left top;
+    }
+
+
+@keyframes heartAnim {
+    from {
+        background-position: left top;
+    }
+    to {
+        background-position: right top;
+    }
+}
+
+.intro{
+    text-align: center;
+    margin-left: var(--margen2);
+    margin-right: var(--margen2);
+    margin-top: var(--margen2);
+    font-size: var(--regular-size);
+    font-weight: var(--regular);
+}
+
+.titulo{
+    text-align: center;
+    margin-top: var(--margen3);
+}
+.jugabilidad{
+    margin-top: var(--margen3)
+}
+.publicidad{
+    margin-top: var(--margen3);
+    margin-left: var(--margen2);
+}
+.publicidad img{
+    width: 325px;
+    height: 75px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow:hidden;
+}
+.comunidades{
+    margin-left: var(--margen3);
+    margin-right: var(--margen3);
+    text-align: center;
+    align-items: center;
+}
+#facebook,
+#discord,
+#twitch,
+#youtube {
+    position: relative;
+    align-items: flex-end;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 15px;
+    padding-top: var(--margen1);
+}
+.comunidades p{
+    margin-top: var(--margen1);
+}

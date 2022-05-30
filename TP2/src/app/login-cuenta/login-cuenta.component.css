@@ -1,0 +1,77 @@
+
+.input-group{
+    top: 250px;
+    position: absolute;
+    left: var(--margen5);
+    display: flex;
+}
+.input-group2{
+    top: 330px;
+    position: absolute;
+    left: 48px;
+    display: flex;
+    
+}
+input{
+    display: block;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: var(--fuente-general);
+    width: 258px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, .5);
+    border: 1px solid var(--color-txt-oscuro);
+    
+}
+label{
+    position: absolute;
+    top: -30px;
+    left: -26px;
+    display: inline-flex;
+    column-gap: 10px;
+    align-items: center;
+    transition: transform .25s;
+    opacity: .25s;
+}
+.icon{
+    display: inline-flex;
+    opacity: 0;
+}
+input:focus+label{
+    transform: translateX(26px);
+}
+input:focus+label .icon{
+    opacity: 1;
+    transition-delay: .1s;
+}
+input::placeholder{
+    transition: opacity .25s;
+}
+input:focus::placeholder{
+    opacity: 0;
+}
+.recuperar-contraseña{
+    margin-top: 390px;
+    position: absolute;
+    left: 55px;
+    margin-left: var(--margen5);
+    font-size: var(--regular-size);
+    font-weight: var(--regular);
+    text-decoration:underline;
+}
+.btn-iniciarSesion{
+    margin-top: 460px;
+    position: absolute;
+    left: 120px;
+    color: var(--color-txt-oscuro);
+    width: 99px;
+    height: 38px;
+    font-size: var(--regular-size);
+    text-align: center;
+    background-color: var(--color-boton-aceptar);
+    border-radius: 5px;
+    padding: var(--margen1);
+    box-shadow: 0 0 3px var(--color-body-oscuro);
+}

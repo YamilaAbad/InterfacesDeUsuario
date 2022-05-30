@@ -15,6 +15,7 @@
     border-radius: 5px;
     border: 1px solid var(--color-primario);
     background-color: var(--color-body-oscuro);
+    cursor: pointer;
   }
   
   .btn-neon:hover{

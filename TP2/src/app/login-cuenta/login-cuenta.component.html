@@ -1,0 +1,21 @@
+<div>
+    <app-login-fondo></app-login-fondo>
+    <div class="inputs-inicio">
+        <div class="input-group">
+            <input type="email" placeholder="email@ejemplo.com" id="email">
+            <label for="email">
+                <div class="icon"><p>✉</p></div>
+                Correo electrónico
+            </label>
+        </div>
+        <div class="input-group2">
+        <input type="password" placeholder="**********" id="password">
+            <label for="password">
+                <div class="icon"><p>🔒︎</p></div>
+                Contraseña
+            </label>
+        </div>
+    </div>
+    <a class="recuperar-contraseña">¿Olvidaste tu contraseña?</a>
+    <a class="btn-iniciarSesion" [routerLink]="['/perfil']">Iniciar Sesión</a> 
+</div>
