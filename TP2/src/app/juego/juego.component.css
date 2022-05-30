@@ -58,6 +58,7 @@
     
 .heart.on{
     animation: heartAnim 1s steps(28) forwards;
+   
 }   
 .heart:hover {
         background-position: left top;
@@ -125,4 +126,19 @@
 }
 .comunidades p{
     margin-top: var(--margen1);
+}
+.carrusel{
+    display: flex;
+    overflow-y:auto;
+    margin-top: var(--margen3);
+}
+.carrusel img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: var(--margen3);
+    display: block;
+    width: 310px;
+    height: 151px;
+    margin-bottom: var(--margen7);
 }

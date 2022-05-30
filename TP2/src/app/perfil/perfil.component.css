@@ -13,7 +13,7 @@
  .editar{
    position: relative;
    margin-left: var(--margen2);
-   top: var(--margen4);
+   top: var(--margen3);
  }
  /*******************AVATARS DEL EDITAR*************/
  .avatars-editables{
@@ -28,23 +28,24 @@
  .saldo{
    font-family: var(--fuente-general);
    font-size: var(--normal-size);
-   margin-top: -3px;
+   margin-top: -20px;
  }
  
 /******************************************PERFIL USUARIO***********************************************************/
  .perfilUser{
    position: relative;
    right: var(--margen3);
-   top: var(--margen4);
+   bottom: 30px;   
  }
 
  /********************************************DATOS DE PERFIL USUARIO***************************************************/
 
   .datos{
         position: relative;
-        top: 180px;
+        top: 60px;
         text-align: center;
         margin-left: 120px;
+        
 }
 /******************************************BOTON CERRRAR SESIÓN************************************/
   .btn-cerrar{
@@ -64,7 +65,11 @@
     border-radius: 5px;
     background-color: var(--color-boton-alerta);
     border: 1px solid var(--color-boton-alerta);
-  }
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
 /**********************************BOTONES NEON**************************************************************/
 .btn-neon{
   position: relative;
@@ -84,6 +89,7 @@
   border: 1px solid var(--color-primario);
   background-color: var(--color-body-oscuro);
   cursor: pointer;
+  margin-bottom: 8px;
 }
 
 .btn-neon:hover{
@@ -140,4 +146,31 @@
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+
+.heart {
+  background-image:
+  url(https://abs.twimg.com/a/1474649078/img/animations/web_heart_animation.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 2900%;
+  cursor: pointer;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  top: -2px;
+  right: 40px;
+  position: relative;
+  margin-left:20px;
+  animation: heartAnim steps(28) 1s infinite both;
+  -webkit-animation: heartAnim steps(28) 1s infinite both;
+}
+
+@keyframes heartAnim {
+  0% {
+      background-position: 0%;
+  }
+  100% {
+      background-position: 100%;
+  }
 }

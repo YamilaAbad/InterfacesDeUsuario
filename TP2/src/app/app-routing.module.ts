@@ -12,6 +12,7 @@ import { LoginCrearCuentaComponent } from './login-crear-cuenta/login-crear-cuen
 import { LoginCuentaComponent } from './login-cuenta/login-cuenta.component';
 import { LoginFacebookComponent } from './login-facebook/login-facebook.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 
 
 
@@ -59,6 +60,10 @@ const routes: Routes = [
   {
     path:'ejecutando',
     component:JuegoEjecutandoComponent
+  },
+  {
+    path: 'preguntas-frecuentes',
+    component:PreguntasFrecuentesComponent
   },
   {
     path: '**',
