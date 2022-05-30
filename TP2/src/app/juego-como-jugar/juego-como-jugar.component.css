@@ -1,0 +1,43 @@
+.container{
+    background-color: rgba(36, 27, 27, 0.623);
+    position: absolute;
+    width: 360px;
+    height: 100vh;
+}
+.fondo{
+    height: 500px;
+    width: 312px;
+    background: rgba(63, 63, 65, 0.75);
+    position: absolute;
+    margin-left: var(--margen3);
+    margin-top:100px ;
+}
+.vista{
+    margin-left:0;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    
+}
+p{
+    text-align: center;
+    margin-right: var(--margen3);
+    margin-left: var(--margen3);
+    margin-top: var(--margen2);
+}
+a{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    padding: var(--margen1);
+    background-color: var(--color-boton-jugar);
+    margin-top: var(--margen2);
+    margin-left: 110px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}

@@ -1,12 +1,12 @@
 .fondo{
     background: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
-    height: 640px;
+    height: 100vh;
     width: 360px;
 }
 h1{
     top: 80px;
     position: absolute;
-    left: var(--margen3);
+    left: var(--margen2);
 }
 .input-group{
     top: 180px;
@@ -17,19 +17,19 @@ h1{
 .input-group2{
     top: 252px;
     position: absolute;
-    right: 54px;
+    left: 48px;
     display: flex;  
 }
 .input-group3{
     top: 324px;
     position: absolute;
-    right: 54px;
+    left: 48px;
     display: flex;  
 }
 .input-group4{
     top: 396px;
     position: absolute;
-    right: 54px;
+    left: 48px;
     display: flex;  
 }
 input{

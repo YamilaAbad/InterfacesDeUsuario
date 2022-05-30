@@ -1346,11 +1346,12 @@ html {
 
 .fondo{
     background: linear-gradient(rgba(12,15,35,0.80), rgba(3, 212, 231, 0.79));
-    height: 640px;
+    height: 100%;
     width: 360px;
     padding: 0;
     margin: 0;
     position: absolute;
+    display: flex;
    }
 
 .logo img{
@@ -1362,7 +1363,7 @@ html {
     transform-style: preserve-3d;
     position: absolute;
     animation: coin 5s linear infinite;
-    top: 2px;
+    top: -2px;
   }
   
   
@@ -1376,9 +1377,9 @@ html {
   }
 
 .logo{
-    position: relative;
+    position: absolute;
     display: flex;
-    margin-top: var(--margen7);
+    margin-top: var(--margen7); 
     top: var(--margen4);
     text-align: center;
     align-items: center;
@@ -1390,4 +1391,6 @@ html {
     font-family: var(--fuente-titulo);
     font-weight: var(--regular);
     font-size: 48px;
+    margin-left: 80px;
+    
 }
