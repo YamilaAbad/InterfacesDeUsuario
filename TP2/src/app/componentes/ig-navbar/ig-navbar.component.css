@@ -104,6 +104,17 @@
   .nav__subList{
     display: none;
   }
+  .nav__name_perfil{
+    font-size: var(--regular-size);
+    font-weight: var(--regular);
+    color:white;
+  }
+  .nav__icon_perfil{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: var(--h3-size);
+    color: var(--color-primario);
+  }
   
   .nav__logo{
     display: none;
@@ -120,8 +131,8 @@
    
   }
   .search-box:hover > input{
-    width:9.375rem;
-    padding: 0 7px;
+    width:150px;
+    padding: 14px 10px;
   }
 }
 
@@ -245,7 +256,8 @@
     margin: 0;
   }
   .header__search{
-    width: 300px;
+    width: 28rem;
+	  height: 2.5rem;
     padding: .55rem .75rem;
   }
    
@@ -261,28 +273,32 @@
   .nav__icon {
     display: none;
   }
+  .nav__icon_perfil{
+	  display: block;
+	  width: 1.875rem;
+	  height: 1.875rem;
+	  align-content: center;
+  }
+  .nav__name_perfil{
+	  display: none;
+  }
+  .nav__list{
+	  display: flex;
+	  align-content: center;
+	  justify-content:space-around;
+  }
   
   .nav__name {
     font-size: var(--normal-size);
     text-align: center;
     color:var(--color-primario);
-  }
-  .nav__menu 
-  .nav__item:hover{
-    background-color: var(--color-primario);
-    transition: .4s;  
-  }
-  
-  .nav__item
-  .nav__link
-  .nav__name:hover{
-color: white;
-  }
-  
+  }  
+    
   .nav__menu
   .nav__item
   .nav__link{
     padding:2rem 2rem 1.5rem  2rem ;
+	  margin-right: 16px;
    
   }
   .nav__icon_categ{
@@ -314,10 +330,7 @@ color: white;
     line-height: unset;
     white-space: nowrap;
   }
-  .nav__menu ul li ul li a:hover{
-    background-color: var(--color-primario);
-    transition: .4s;
-  }
+ 
   .toggler{
     left:-50%;
   }

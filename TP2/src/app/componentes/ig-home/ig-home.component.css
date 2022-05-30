@@ -1,0 +1,52 @@
+/*============================= Home ===============================*/
+.section__title{
+    font-size: var(--normal-size);
+    font-weight: var(--Bold);
+    padding:var(--margen3) var(--margen3) var(--margen3) 0;
+  }
+  .galery{
+    padding: var(--margen3);
+  }
+ 
+  .imagen-publicidad{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .lista-imagenes img{
+    width: 100%;
+    object-fit: cover;
+    margin-right: var(--margen3);
+    display: block;
+    width: 324px;
+    height: 74px; 
+  }
+  
+  .lista-imagenes img{
+    width: 100%;
+    object-fit: cover;
+    margin-right: var(--margen3);
+    display: block;
+    width: 88px;
+    height: 140px; 
+  }
+  .lista-imagenes{
+    display: flex;
+    overflow-y:auto;
+    margin-bottom: var(--margen3);
+  }
+  .carrusel{
+    display: flex;
+    overflow-y:auto;
+    margin-top: var(--margen3);
+  
+  }
+  .carrusel img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: var(--margen3);
+    display: block;
+    width: 310px;
+    height: 151px;
+  }

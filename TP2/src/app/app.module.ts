@@ -16,6 +16,7 @@ import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra
 import { IgNavbarComponent } from './componentes/ig-navbar/ig-navbar.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
+import { IgHomeComponent } from './componentes/ig-home/ig-home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AppRoutingModule } from './app-routing.module';
     TiendaPrincipalComponent,
     TiendaCompraComponent,
     IgNavbarComponent,
-    LoginComponent
+    LoginComponent,
+    IgHomeComponent
   ],
   imports: [
     BrowserModule,
