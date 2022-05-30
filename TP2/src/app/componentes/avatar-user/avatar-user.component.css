@@ -1,14 +1,19 @@
 /******************AVATAR*****************************************/
+.container{
+  width: 200px;
+  height: 200px
+}
 .corbata{
-  position: relative;
+  position: absolute;
   z-index: -1;
+  top: 150px;
 }
 .nombreUsuario{
-  position:relative;
+  position:absolute;
   z-index: 1;
   font-family: var(--fuente-general);
   font-size: var(--h3-size);
-  top: -120px;
+  top: var(--margen7);
   left: var(--margen5);
 }
 .nivelJugador{

@@ -1,8 +1,4 @@
-<div class="fondo">
-    <div class="loading" *ngIf = "load">
-        <app-cargar-pagina></app-cargar-pagina>
-    </div>
-    
+<div class="fondo">   
     <div class="grid">
         <div class="editar" (click)="mostrar = true">
             <img src="assets/iconos/edit.svg" alt="" width="30" height="30">
@@ -11,15 +7,38 @@
             <app-avatar-user></app-avatar-user> 
         </div>
         <div class="saldo" >
-                    <app-info-saldo></app-info-saldo>   
+            <app-info-saldo></app-info-saldo>   
         </div>
     </div>
     <div class="datos">
         <ul>
-            <li *ngFor="let opcion of opciones">
-                <app-boton-neon [opcion]="opcion"></app-boton-neon>    
+            <li>
+                <div>
+                    <a class="btn-neon">Favoritos
+                     <span id="span1"></span>
+                     <span id="span2"></span>
+                     <span id="span3"></span>
+                     <span id="span4"></span>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="btn-neon">Historial de compras
+                     <span id="span1"></span>
+                     <span id="span2"></span>
+                     <span id="span3"></span>
+                     <span id="span4"></span>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="btn-neon">Últimos jugados
+                     <span id="span1"></span>
+                     <span id="span2"></span>
+                     <span id="span3"></span>
+                     <span id="span4"></span>
+                    </a>
+                  </div>    
             </li>
-            <a href="#" class="btn-cerrar" (click)="load = true">Cerrar sesión</a> 
+            <a class="btn-cerrar" routerLink="['/home']">Cerrar sesión</a> 
         </ul> 
     </div>
     <div class="avatars-editables" *ngIf = "mostrar" (click)="mostrar = false" >

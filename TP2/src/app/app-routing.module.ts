@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule} from '@angular/router';
+import { IgHomeComponent } from './componentes/ig-home/ig-home.component';
 
 import { LoginComponent } from './componentes/login/login.component';
 import { TiendaCompraComponent } from './componentes/tienda-compra/tienda-compra.component';
@@ -15,6 +16,10 @@ import { PerfilComponent } from './perfil/perfil.component';
 
 
 const routes: Routes = [
+  {
+    path: 'home',
+    component: IgHomeComponent
+  },
   {
     path: 'tienda',
     component: TiendaPrincipalComponent
