@@ -24,6 +24,7 @@ import { JuegoComponent } from './juego/juego.component';
 import { JuegoComoJugarComponent } from './juego-como-jugar/juego-como-jugar.component';
 import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
+import { MensajeriaComponent } from './mensajeria/mensajeria.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-f
     JuegoComponent,
     JuegoComoJugarComponent,
     JuegoEjecutandoComponent,
-    PreguntasFrecuentesComponent
+    PreguntasFrecuentesComponent,
+    MensajeriaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule} from '@angular/router';
+import { NgModule, Injectable, Component } from '@angular/core';
+import { Routes, RouterModule, CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree} from '@angular/router';
+import { Observable } from 'rxjs';
 import { IgHomeComponent } from './componentes/ig-home/ig-home.component';
 
 import { LoginComponent } from './componentes/login/login.component';
@@ -11,10 +12,20 @@ import { JuegoComponent } from './juego/juego.component';
 import { LoginCrearCuentaComponent } from './login-crear-cuenta/login-crear-cuenta.component';
 import { LoginCuentaComponent } from './login-cuenta/login-cuenta.component';
 import { LoginFacebookComponent } from './login-facebook/login-facebook.component';
+import { MensajeriaComponent } from './mensajeria/mensajeria.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
+import { LoginServisService } from './servicios/login-servis.service';
 
 
+/* @Injectable() class LoginRequired implements CanActivate{
+  constructor(private sessionService: LoginServisService){}
+
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
+    return this.sessionService.logIn();
+    
+  }
+} */
 
 const routes: Routes = [
   {
@@ -23,7 +34,8 @@ const routes: Routes = [
   },
   {
     path: 'tienda',
-    component: TiendaPrincipalComponent
+    component: TiendaPrincipalComponent,
+    /* canActivate: [LoginRequired] */
   },
   {
     path: 'compra',
@@ -31,7 +43,8 @@ const routes: Routes = [
   },
   {
     path: 'perfil',
-    component: PerfilComponent
+    component: PerfilComponent,
+    /* canActivate: [LoginRequired] */
   },
   {
     path: 'login',
@@ -66,6 +79,10 @@ const routes: Routes = [
     component:PreguntasFrecuentesComponent
   },
   {
+    path:'mensajeria',
+    component:MensajeriaComponent
+  },
+  {
     path: '**',
     redirectTo: ''
   }
@@ -74,6 +91,9 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+/*   providers: [LoginRequired], */
 })
 export class AppRoutingModule { }
+
+/*******Codigo comentado pertenece al ruteo si se tuviera un backend****************/
