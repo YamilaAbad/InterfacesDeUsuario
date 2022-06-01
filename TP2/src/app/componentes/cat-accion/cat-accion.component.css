@@ -1,0 +1,72 @@
+.section__title{
+    font-size: var(--normal-size);
+    font-weight: var(--Bold);
+    padding:0 var(--margen3) var(--margen3) 0;
+  }
+  .contenedor_imagenes {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 24px;
+    overflow-y:auto;
+    margin-bottom:72px;
+  }
+  
+  .contenedor_imagenes .imagen {
+    width: 88px;
+    position: relative;
+    height: 140px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 3px 0px rgba(3, 212, 231, 0.5);
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: 100%;
+    width:88px;
+    height:140px;
+    object-fit: cover;
+  }
+  
+  .titulo_info {
+    color: #fff;
+    font-weight: var(--medium);
+    font-size: 11px;
+    text-align: center;
+    padding:4px;
+    
+  }
+  
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(3, 0, 0, 0.8);
+    width: 88px;
+    height: 40px;
+    transition: 1s;
+    overflow: hidden;
+  }
+  .point{
+    display:flex;
+    height: .5rem;
+    position:absolute;
+  }
+  .point img{
+    flex-direction: row;
+    align-items: center;
+    row-gap: 4px;
+    
+  }
+  .icon_saldo{
+    width: 16px;
+    
+    right:15px;
+    position: relative;
+  }
+  .info_saldo{
+    font-size: var(--regular-size);
+    font-weight: var(--regular);
+    padding:8px;
+    left: 20px;
+    color:white;
+  }

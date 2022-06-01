@@ -23,6 +23,7 @@ import { LoginCrearCuentaComponent } from './login-crear-cuenta/login-crear-cuen
 import { JuegoComponent } from './juego/juego.component';
 import { JuegoComoJugarComponent } from './juego-como-jugar/juego-como-jugar.component';
 import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.component';
+import { CatAccionComponent } from './componentes/cat-accion/cat-accion.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.co
     LoginCrearCuentaComponent,
     JuegoComponent,
     JuegoComoJugarComponent,
-    JuegoEjecutandoComponent
+    JuegoEjecutandoComponent,
+    CatAccionComponent
   ],
   imports: [
     BrowserModule,
