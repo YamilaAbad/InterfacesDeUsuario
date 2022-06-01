@@ -15,6 +15,7 @@ import { LoginFacebookComponent } from './login-facebook/login-facebook.componen
 import { MensajeriaComponent } from './mensajeria/mensajeria.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
+import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-sin-resultados/resultado-busqueda-sin-resultados.component';
 import { LoginServisService } from './servicios/login-servis.service';
 
 
@@ -81,6 +82,10 @@ const routes: Routes = [
   {
     path:'mensajeria',
     component:MensajeriaComponent
+  },
+  {
+    path: 'resultado-busqueda-sin-resultados',
+    component: ResultadoBusquedaSinResultadosComponent
   },
   {
     path: '**',

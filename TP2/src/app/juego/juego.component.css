@@ -87,6 +87,15 @@
     text-align: center;
     margin-top: var(--margen3);
 }
+.votar{
+    margin-top: var(--margen3);
+    margin-left: var(--margen3);
+    margin-right: var(--margen3);
+    font-size: var(--regular-size);
+}
+.votacion{
+    margin-top: var(--margen7);
+}
 .jugabilidad{
     margin-top: var(--margen3)
 }

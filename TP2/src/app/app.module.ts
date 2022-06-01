@@ -25,6 +25,8 @@ import { JuegoComoJugarComponent } from './juego-como-jugar/juego-como-jugar.com
 import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 import { MensajeriaComponent } from './mensajeria/mensajeria.component';
+import { LikeDislikeComponent } from './componentes/like-dislike/like-dislike.component';
+import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-sin-resultados/resultado-busqueda-sin-resultados.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { MensajeriaComponent } from './mensajeria/mensajeria.component';
     JuegoComoJugarComponent,
     JuegoEjecutandoComponent,
     PreguntasFrecuentesComponent,
-    MensajeriaComponent
+    MensajeriaComponent,
+    LikeDislikeComponent,
+    ResultadoBusquedaSinResultadosComponent
   ],
   imports: [
     BrowserModule,
