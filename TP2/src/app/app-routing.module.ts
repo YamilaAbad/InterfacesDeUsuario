@@ -30,6 +30,10 @@ import { LoginServisService } from './servicios/login-servis.service';
 
 const routes: Routes = [
   {
+    path: '',
+    component:IgHomeComponent
+  },
+  {
     path: 'home',
     component: IgHomeComponent
   },

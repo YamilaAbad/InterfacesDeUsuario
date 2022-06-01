@@ -1,13 +1,13 @@
 <header class="header" id="header">
     <nav class="nav container">
         <div class="header_icon">
-            <img class="header_icon_log" src="assets/img/logo.png">
-            <a href="#home" class="nav__logo">Island Games</a>
+            <img [routerLink]="['home']" class="header_icon_log" src="assets/img/logo.png">
+            <a [routerLink]="['home']" class="nav__logo">Island Games</a>
                 
         </div>
         <div class="header__search">
             <input type="search" placeholder="¿Que estas buscando?" class="header__input">
-            <a [routerLink]="['/']" class="icon">
+            <a [routerLink]="['resultado-busqueda-sin-resultados']" class="icon">
                 <i class='bx bx-search-alt-2 header__icon'></i>
             </a>
         </div>
@@ -15,14 +15,14 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a [routerLink]="['/']" class="nav__link active">
+                    <a [routerLink]="['home']" class="nav__link active">
                         <img class="nav__icon" src="assets/iconos/inicio.svg">
                         <span class="nav__name">Inicio</span>
                     </a>
                 </li>
                 
                 <li class="nav__item">
-                    <a [routerLink]="['/']" class="nav__link">
+                    <a [routerLink]="['tienda']" class="nav__link">
                         
                         <img class="nav__icon" src="assets/iconos/tienda.svg">
                         <span class="nav__name">Tienda</span>
@@ -80,7 +80,7 @@
                 </li>
 
                 <li class="nav__item">
-                    <a [routerLink]="['/']"class="nav__link">
+                    <a [routerLink]="['perfil']"class="nav__link">
                         
                         <img class="nav__icon_perfil" src="assets/iconos/usuario.svg">
                         <span class="nav__name_perfil">Perfil</span>
