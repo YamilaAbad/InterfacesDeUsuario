@@ -26,8 +26,16 @@ import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.co
 import { CatAccionComponent } from './componentes/cat-accion/cat-accion.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 import { MensajeriaComponent } from './mensajeria/mensajeria.component';
+<<<<<<< HEAD
+import { CatAventuraComponent } from './cat-aventura/cat-aventura.component';
+import { CatCarreraComponent } from './cat-carrera/cat-carrera.component';
+import { CatCasinoComponent } from './cat-casino/cat-casino.component';
+import { CatDeporteComponent } from './cat-deporte/cat-deporte.component';
+import { CatMesaComponent } from './cat-mesa/cat-mesa.component';
+=======
 import { LikeDislikeComponent } from './componentes/like-dislike/like-dislike.component';
 import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-sin-resultados/resultado-busqueda-sin-resultados.component';
+>>>>>>> 900d72413e362c10d574b8cc6e595973274d7049
 
 @NgModule({
   declarations: [
@@ -53,8 +61,16 @@ import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-si
     CatAccionComponent,
     PreguntasFrecuentesComponent,
     MensajeriaComponent,
+<<<<<<< HEAD
+    CatAventuraComponent,
+    CatCarreraComponent,
+    CatCasinoComponent,
+    CatDeporteComponent,
+    CatMesaComponent
+=======
     LikeDislikeComponent,
     ResultadoBusquedaSinResultadosComponent
+>>>>>>> 900d72413e362c10d574b8cc6e595973274d7049
   ],
   imports: [
     BrowserModule,

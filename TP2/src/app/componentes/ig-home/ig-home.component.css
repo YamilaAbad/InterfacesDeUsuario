@@ -24,12 +24,23 @@
 
 /*============================= Home ===============================*/
 .section__title{
-    font-size: var(--normal-size);
-    font-weight: var(--Bold);
-    padding:var(--margen3) var(--margen3) var(--margen3) 0;
-  }
-  .galery{
+  font-size: var(--normal-size);
+  font-weight: var(--Bold);
+  padding:var(--margen3) var(--margen3) var(--margen3) 0;
+}
+ .galery{
     padding: var(--margen3);
+  }
+  .section_height{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .header__icon{
+    width: 1.5rem;
+  height: 1.5rem;
+  font-size: var(--h3-size);
+  color: var(--color-txt-oscuro);
   }
  
   .imagen-publicidad{
