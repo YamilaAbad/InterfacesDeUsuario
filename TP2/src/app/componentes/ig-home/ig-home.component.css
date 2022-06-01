@@ -1,11 +1,46 @@
+/**************pulso*******************/
+.live{
+  position: relative;
+  bottom: 50px;
+  left: 120px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--color-primario-oscuro);
+  animation: pulse 1500ms infinite;
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes pulse {
+  0%{
+    box-shadow: rgb(1, 130, 142) 0 0 0 0;
+  }
+  75%{
+    box-shadow: rgba(1, 130, 142,0) 0 0 0 16px ;
+  }
+  
+}
+
 /*============================= Home ===============================*/
 .section__title{
-    font-size: var(--normal-size);
-    font-weight: var(--Bold);
-    padding:var(--margen3) var(--margen3) var(--margen3) 0;
-  }
-  .galery{
+  font-size: var(--normal-size);
+  font-weight: var(--Bold);
+  padding:var(--margen3) var(--margen3) var(--margen3) 0;
+}
+ .galery{
     padding: var(--margen3);
+  }
+  .section_height{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .header__icon{
+    width: 1.5rem;
+  height: 1.5rem;
+  font-size: var(--h3-size);
+  color: var(--color-txt-oscuro);
   }
  
   .imagen-publicidad{
