@@ -32,6 +32,7 @@ import { CatCarreraComponent } from './cat-carrera/cat-carrera.component';
 import { CatCasinoComponent } from './cat-casino/cat-casino.component';
 import { CatDeporteComponent } from './cat-deporte/cat-deporte.component';
 import { CatMesaComponent } from './cat-mesa/cat-mesa.component';
+import { CatRolComponent } from './cat-rol/cat-rol.component';
 =======
 import { LikeDislikeComponent } from './componentes/like-dislike/like-dislike.component';
 import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-sin-resultados/resultado-busqueda-sin-resultados.component';
@@ -66,7 +67,8 @@ import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-si
     CatCarreraComponent,
     CatCasinoComponent,
     CatDeporteComponent,
-    CatMesaComponent
+    CatMesaComponent,
+    CatRolComponent
 =======
     LikeDislikeComponent,
     ResultadoBusquedaSinResultadosComponent
