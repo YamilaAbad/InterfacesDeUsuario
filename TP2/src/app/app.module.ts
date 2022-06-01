@@ -23,6 +23,7 @@ import { LoginCrearCuentaComponent } from './login-crear-cuenta/login-crear-cuen
 import { JuegoComponent } from './juego/juego.component';
 import { JuegoComoJugarComponent } from './juego-como-jugar/juego-como-jugar.component';
 import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.component';
+import { CatAccionComponent } from './componentes/cat-accion/cat-accion.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 import { MensajeriaComponent } from './mensajeria/mensajeria.component';
 import { LikeDislikeComponent } from './componentes/like-dislike/like-dislike.component';
@@ -49,6 +50,7 @@ import { ResultadoBusquedaSinResultadosComponent } from './resultado-busqueda-si
     JuegoComponent,
     JuegoComoJugarComponent,
     JuegoEjecutandoComponent,
+    CatAccionComponent,
     PreguntasFrecuentesComponent,
     MensajeriaComponent,
     LikeDislikeComponent,
