@@ -1,9 +1,10 @@
-
-.saldo{
-    transform: translate(80%,40%);
-    margin-left: var(--margen7);
+ .saldo{
+     position: absolute;
+    left: 295px;
+    margin-top: -30px;
+   
     
-}
+} 
 .conteiner{
     position: absolute;
     margin-right: auto;
@@ -13,9 +14,9 @@
     justify-content: space-between;
 }
 .titulo{
+    top: 45px;
     position: relative;
     text-align: center;
-    margin-top: var(--margen4);
     color: var(--color-txt-oscuro);
 }
 img{
@@ -23,6 +24,7 @@ img{
     width: 30px;
 }
 .contenedor{ 
+    top: 35px;
     position: relative;
     align-items: center;
     width: 312px;
@@ -52,12 +54,13 @@ li{
     border: 2px solid var(--color-primario);
 }
 .tarjetas{   
+    position: relative;
     align-items: center;
-    
+    right: 9px;
     width: 312px;
     height: 50px;
-    margin-top: 27px;
-    margin-right:(--margen2);
+    margin-top: 20px;
+    top: 8px;
     background: var(--color-primario);
   }
   .tarjetas img{
