@@ -28,8 +28,8 @@
   font-weight: var(--Bold);
   padding:var(--margen3) var(--margen3) var(--margen3) 0;
 }
- .galery{
-    padding: var(--margen3);
+.galeria{
+	margin-bottom:72px;
   }
   .section_height{
     display:flex;
@@ -84,4 +84,50 @@
     display: block;
     width: 310px;
     height: 151px;
+  }
+  @media screen and (min-width: 767px) {
+    
+    .imagen-publicidad{
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .lista-imagenes img{
+      width: 100%;
+      object-fit: cover;
+      margin-right: var(--margen3);
+      display: block;
+      width: 950px;
+      height: 350px; 
+    }
+    
+    .lista-imagenes img{
+      width: 100%;
+      object-fit: cover;
+      margin-right: var(--margen3);
+      display: block;
+      width: 449px;
+      height: 300px; 
+    }
+    .lista-imagenes{
+      display: flex;
+      overflow-y:auto;
+      margin-bottom: var(--margen3);
+    }
+    .carrusel{
+      display: flex;
+      overflow-y:auto;
+      margin-top: var(--margen3);
+    
+    }
+    .carrusel img{
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: var(--margen3);
+      display: block;
+      width: 1395px;
+      height: 696px;
+    }
+   
   }
