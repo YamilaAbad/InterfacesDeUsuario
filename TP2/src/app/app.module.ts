@@ -26,6 +26,11 @@ import { JuegoEjecutandoComponent } from './juego-ejecutando/juego-ejecutando.co
 import { CatAccionComponent } from './componentes/cat-accion/cat-accion.component';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 import { MensajeriaComponent } from './mensajeria/mensajeria.component';
+import { CatAventuraComponent } from './cat-aventura/cat-aventura.component';
+import { CatCarreraComponent } from './cat-carrera/cat-carrera.component';
+import { CatCasinoComponent } from './cat-casino/cat-casino.component';
+import { CatDeporteComponent } from './cat-deporte/cat-deporte.component';
+import { CatMesaComponent } from './cat-mesa/cat-mesa.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +55,12 @@ import { MensajeriaComponent } from './mensajeria/mensajeria.component';
     JuegoEjecutandoComponent,
     CatAccionComponent,
     PreguntasFrecuentesComponent,
-    MensajeriaComponent
+    MensajeriaComponent,
+    CatAventuraComponent,
+    CatCarreraComponent,
+    CatCasinoComponent,
+    CatDeporteComponent,
+    CatMesaComponent
   ],
   imports: [
     BrowserModule,
