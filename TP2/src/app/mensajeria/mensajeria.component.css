@@ -3,7 +3,7 @@
     margin: 40px;
     top: 72px;
     width: 285px;
-    height: 400px;
+    height: 420px;
     background-color: var(--color-body-oscuro);
     border: 5px solid;
     border-image: linear-gradient(#70eeff,#17cfc6,#165479) 1;
@@ -24,12 +24,61 @@ h1{
     text-align: center;
     font-size: var(--h3-size);
 }
+
+.input-group{
+  top: 80px;
+  position: absolute;
+  left: 15px;
+  display: flex;  
+}
+input{
+  display: block;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-family: var(--fuente-general);
+  width: 240px;
+  height: 30px;
+  background-color:rgba(255, 255, 255, .5);
+  border: 1px solid var(--color-primario);
+}
+label{
+  color: var(--color-txt-oscuro);
+  font-size: var(--regular-size);
+  position: absolute;
+  top: -30px;
+  left: -26px;
+  display: inline-flex;
+  column-gap: 10px;
+  align-items: center;
+  transition: transform .25s;
+  opacity: .25s;
+}
+.icon{
+  display: inline-flex;
+  opacity: 0;
+}
+input:focus+label{
+  transform: translateX(26px);
+}
+input:focus+label .icon{
+  opacity: 1;
+  transition-delay: .1s;
+}
+input::placeholder{
+  transition: opacity .25s;
+}
+input:focus::placeholder{
+  opacity: 0;
+}
+
 .form-main{
     position: absolute;
 }
 .comment{
     position: absolute;
-    top: 72px;
+    top: 130px;
     height: 200px;
     width: 240px;
     background: rgba(255,255,255,.75);
@@ -41,7 +90,7 @@ h1{
 button{
     font-family: var(--fuente-general);
     position: absolute;
-    top: 450px;
+    top: 487px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100px;

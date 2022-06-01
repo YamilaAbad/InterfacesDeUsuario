@@ -1,24 +1,22 @@
-*{
-    font-family: var(--fuente-general);
-    font-size: var(--regular-size);
-}
+
 .tienda{
-    height: 640px;
-    width: 360px;
+    height: 100vh;
+    margin-top: 30px;
 }
 .saldo{
+    position: absolute;
     font-family: var(--fuente-general);
     font-size: var(--normal-size);
-    position: absolute;
+    margin-top: 8px;
     left: 300px;
     margin-right: var(--margen3);
-    margin-top: 18px;
+    
   }
 h1{
     font-family: var(--fuente-general);
     position: absolute;
     font-size: var(--h2-size);
-    top: 100px;
+    top: 130px;
     left: 80px;
     color: var(--color-txt-oscuro);
 
@@ -29,7 +27,7 @@ h1{
     border: 1px solid var(--color-primario);
     border-radius: 5px;
     position: relative;
-    bottom: 30.5rem;
+    bottom: 32rem;
     left: var(--margen3);
     right: var(--margen3);
     margin-bottom: var(--margen3);
@@ -38,6 +36,7 @@ h1{
     grid-template-rows: auto;  
     gap: var(--margen2);
     padding: var(--margen1);
+    font-size: var(--regular-size);
     
 }
 
@@ -67,6 +66,7 @@ select{
     text-align: center;
     margin-top: var(--margen1);
     margin-left: var(--margen1);
+    font-size: var(--regular-size);
 }
 .aviso img{
     width: 20px;
@@ -79,11 +79,13 @@ select{
     width: 150px;
     margin-left: 23px;
     margin-top: -15px ;
+    
 }
 p{
     margin-top: var(--margen2);
     margin-left: var(--margen1);
     margin-right: var(--margen1);
+    font-size: var(--regular-size);
 }
 .botones{
     position: relative;
@@ -96,6 +98,7 @@ p{
     padding: var(--margen1) var(--margen2);
     background: var(--color-body-oscuro);
     border-radius: 5px;
+    font-size: var(--regular-size);
   
 }
 .botones .aceptar{
@@ -105,7 +108,8 @@ p{
     padding: var(--margen1) var(--margen1);
     left: 10px;
     border-radius: 5px;
-    background: var(--color-body-oscuro);  
+    background: var(--color-body-oscuro);
+    font-size: var(--regular-size);  
 }
 .aviso-asistencia{
     margin-top: var(--margen2);
@@ -113,12 +117,13 @@ p{
 .aviso-asistencia a{
     text-decoration:underline;
     color: var(--color-primario);
+    font-size: var(--regular-size);
 }
 .lineaVertical{
     width: 1px;
     height: 430px;
     background: var(--color-primario);
-    top:-58.9rem;
+    top:-60.4rem;
     left: 245px;
     position: relative;
     z-index: 1; 
